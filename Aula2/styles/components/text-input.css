@@ -1,0 +1,13 @@
+/*
+  Esse arquivo define o estilo CSS do nosso componente de <input type="text">
+*/
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  font-size: var(--size-md)!important;
+  border: none!important;
+  padding: var(--size-md)!important;
+  border-radius: calc(var(--size-md) * 2)!important;
+  box-sizing: border-box;
+}
