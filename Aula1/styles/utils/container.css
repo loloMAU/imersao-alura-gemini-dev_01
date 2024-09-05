@@ -1,0 +1,38 @@
+/*
+  Esse arquivo centraliza classes utilitárias que nos ajudam deixar o site responsivo,
+  ajustando o tamanho do conteúdo para se adequar em telas pequenas e grandes usando @media do CSS.
+
+  Quer saber mais? Pergunte ao Gemini!
+  - O que é um site responsivo?
+  - Para que serve o @media em CSS?
+*/
+
+.container{
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--size-md);
+  padding-left: var(--size-md);
+  box-sizing: border-box;
+}
+
+
+/*
+  Aqui usamos o @media do CSS para aplicar estilos diferentes de CSS em tamanhos diferentes de tela
+*/
+@media (min-width: 576px) {
+  .container {
+    max-width: var(--screen-size-xs);
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: var(--screen-size-sm);
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: var(--screen-size-md);
+  }
+}

@@ -1,0 +1,65 @@
+/*
+  Esse arquivo centraliza o código CSS relacionado as fontes (tipos de letra) usadas no nosso site.
+  Assim como vimos na Aula 1, estamos usando o Google Fonts para adicionar novos tipos de fontes.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap');
+
+.font-reenie {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-amarante {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/*
+  Abaixo estamos declarando os padrões de fontes que serão usados no site e configurando
+  os tamanhos padrões para os títulos e textos. Também temos algumas classes CSS para
+  nos ajudar a mudar os textos como quisermos no site.
+*/
+
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Amarante", serif;
+}
+
+h1, .font-size-h1 {font-size: var(--size-h1);}
+h2, .font-size-h2 {font-size: var(--size-h2);}
+h3, .font-size-h3 {font-size: var(--size-h3);}
+h4, .font-size-h4 {font-size: var(--size-h4);}
+h5, .font-size-h5 {font-size: var(--size-h5);}
+h6, .font-size-h6 {font-size: var(--size-h6);}
+
+.font-size-xs { font-size: var(--size-xs);}
+.font-size-sm { font-size: var(--size-sm);}
+.font-size-md { font-size: var(--size-md);}
+.font-size-lg { font-size: var(--size-lg);}
+.font-size-xl { font-size: var(--size-xl);}
+
+.text-right { text-align: right;}
+.text-center { text-align: center;}
+.text-left { text-align: left;}
+
+strong {
+  font-weight: 600;
+}
