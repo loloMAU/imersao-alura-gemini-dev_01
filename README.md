@@ -1,6 +1,8 @@
-# O Oráculo do Tarot, por Ana Gemini
+![header](https://github.com/user-attachments/assets/beff2be5-ea27-4895-9c48-467b6a90d639)
 
-## Sobre o projeto
+# Um projeto Alura + Google Gemini
+
+### Sobre o projeto
 Projeto criado na semana da `imersão dev_` da Alura com Google Gemini.
 
 ## Proposta:
