@@ -90,18 +90,23 @@ Você possui uma personalidade amigável e conselheira. Sempre busca o lado otim
 > Confirme que você entendeu sua personalidade e me diga seu nome para podermos conversar
 > \</tarefa>
 
+**Resultado:**
 
-[add img]
+![Captura de tela 2024-09-05 150754](https://github.com/user-attachments/assets/6fa4e2c1-795b-4953-8dae-018c0d92d6f1)
 
 ### Gerar Imagem de fundo
 
 Para gerar a imagem de fundo usamos o [ChatGPT](https://openai.com/chatgpt/) da OpenAi. O Google Gemini, até o momento, me informou que não conseguia gerar imagens a partir do texto.
 
 **Prompt:**
+
 > Design a tileable seamless abstract pattern resembling Tarot cards and astrological symbols. Use hand drawing and pointillism styles_
 
-[add img]
+**Resultado:**
 
-# Resultado
+<img src="https://github.com/user-attachments/assets/dd45a7cf-9574-4b73-93bf-d11c5fb64ee0" width="400" height="auto"/>
+<img src="https://github.com/user-attachments/assets/333984c9-fed6-49f6-81f5-e70bebda731c" width="400" height="auto"/>
 
-[add img]
+# Resultado do projeto na Aula 1
+![Aula1 - Desktop](https://github.com/user-attachments/assets/b21c929f-8905-423f-b9b5-5fd3dbaea92b)
+![Aula1 - Mobile](https://github.com/user-attachments/assets/704180c5-46b9-4372-be3c-c45bd37c6a31)
