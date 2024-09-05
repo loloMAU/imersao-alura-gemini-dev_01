@@ -11,6 +11,8 @@ Nessa aula refatoramos nosso código para que os resultados de busca apareçam n
 Por enquanto, todos os resultados são exibidos de uma vez, mas na próxima aula vamos abrender a retornar apenas o conteúdo relacionado aos dados fornecidos pelo usuário.
 
 # Resultado do projeto na Aula 4
-[add img]
+![Aula4 - Desktop](https://github.com/user-attachments/assets/a1c7d781-48ec-4563-96ae-92031b8d7d18)
+![Aula4 - Mobile](https://github.com/user-attachments/assets/e8a7d3e8-884d-4c6b-8b94-3d643137c59e)
+
 
 
