@@ -27,6 +27,5 @@ Adicionamos o arquivo `data.js` na raíz do projeto para guardar as informaçõe
 ```
 
 # Resultado do projeto na Aula 3
-[add img]
 
-
+![Captura de tela 2024-09-05 141356](https://github.com/user-attachments/assets/d24be8d4-675d-43c4-a620-c79abb42b9f5)
