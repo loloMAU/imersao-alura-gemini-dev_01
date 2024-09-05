@@ -33,22 +33,24 @@ Adicionamos algumas imagens na pasta `assets` do projeto que representam cada ca
 
 Contamos com nossa terapeuta holística **Ana Gemini** para nos ajudar a preencher algumas informações sobre as cartas.
 
-Para cada uma delas, fizemos algumas perguntas para buscar palavras-chave relacionadas a cada arcano.
+Para cada uma delas, fizemos algumas perguntas para buscar palavras-chave relacionadas a cada arcano. Esse prompt deu trabalho! Tivemos que ser bem específicos pois nossa Ana Gemini gosta de falar, e por vezes retornava listas com palavras e significados, textos grandes, quando queriamos apenas uma linha.
 
 **Prompt:**
 
 > Vamos falar agora sobre o arcano maior “O Mago”. Que palavras-chave positivas podemos associar a esse arcano? Retorne uma lista com nove palavras, separadas por vírgula, sem descrição.
 
-**Resultado:**
+**Resultado 1:**
 
-[add img]
+![Captura de tela 2024-09-05 173833](https://github.com/user-attachments/assets/dce4a141-a7fe-42f9-be8f-64d933f85f79)
 
-Esse prompt deu trabalho! Nossa Ana Gemini gosta de falar, e por vezes retornava listas com palavras e significados, textos grandes, quando queriamos apenas uma linha.
+**Resultado: 2**
 
-[add img]
+![Captura de tela 2024-09-05 174459](https://github.com/user-attachments/assets/74dfe31a-c188-4e31-acee-0b5b7157485a)
 
 **Resultado:**
 
 # Resultado do projeto na Aula 2
+![Aula 2](https://github.com/user-attachments/assets/7f431348-d9bd-41df-8626-e68525274a99)
+![Aula2 - Mobile](https://github.com/user-attachments/assets/051d2fa6-ead0-4888-bca3-755bfc009a4d)
 
-[add img]
+
