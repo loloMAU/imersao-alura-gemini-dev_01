@@ -1,0 +1,51 @@
+/*
+  Esse é nosso arquivo CSS principal, importado no index.html
+  Utilizamos a técnica de @import do CSS incluir estilos de outros arquivos CSS dentro de um arquivo CSS principal.
+  Dessa forma conseguimos separar e organizar melhor o código, facilitando a leitura e o entendimento.
+
+  ATENÇÃO! Ao usar o @import, é possível que a ordem em que os arquivos são importados altere o visual do site!
+
+   Quer saber mais? Pergunte ao Gemini!
+  - Para que serve o @import em arquivos CSS?
+  - Como a ordem dos @import no CSS pode afetar o resultado visual do site?
+*/
+
+@import url("./reset.css");
+@import url("./variables.css");
+@import url("./typography.css");
+
+@import url("./utils/index.css");
+@import url("./components/index.css");
+
+
+html {
+  background-image: url("../assets/images/bg-min.png");
+  background-repeat: repeat;
+  font-size: var(--size-md);
+  height: 100%;
+  color: var(--text-color);
+}
+
+header {
+  padding: var(--size-sm) 0;
+}
+
+body {
+  min-height: 100%;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: var(--size-md) var(--size-sm);
+  opacity: 0.8;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a, a:hover, a:visited, a:focus {
+  color:inherit;
+  text-decoration: none;
+}

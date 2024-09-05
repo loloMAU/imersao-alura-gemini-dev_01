@@ -1,3 +1,4 @@
+![header](https://github.com/user-attachments/assets/beff2be5-ea27-4895-9c48-467b6a90d639)
 
 # Aula 2
 
@@ -46,8 +47,6 @@ Para cada uma delas, fizemos algumas perguntas para buscar palavras-chave relaci
 **Resultado: 2**
 
 ![Captura de tela 2024-09-05 174459](https://github.com/user-attachments/assets/74dfe31a-c188-4e31-acee-0b5b7157485a)
-
-**Resultado:**
 
 # Resultado do projeto na Aula 2
 ![Aula 2](https://github.com/user-attachments/assets/7f431348-d9bd-41df-8626-e68525274a99)

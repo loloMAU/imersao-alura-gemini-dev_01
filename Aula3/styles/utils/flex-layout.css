@@ -1,0 +1,111 @@
+/*
+  Esse arquivo centraliza classes utilitárias que nos ajudam a montar o layout do nosso site
+  usando um conceito de Flex Box do CSS. Com essas clases conseguimos montar inumeras disposições diferentes
+  para posicionar nossos elementos nas páginas.
+
+  Quer saber mais? Pergunte ao Gemini!
+  - De forma resumida, para que serve o Flex Box no CSS?
+
+  Links úteis:
+  https://www.alura.com.br/artigos/css-guia-do-flexbox
+*/
+
+
+/* Vertical layout
+----------------------------*/
+.v-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--size-md);
+  width: 100%;
+}
+
+/* Main axis */
+.v-layout.top { justify-content: flex-start;}
+.v-layout.middle { justify-content: center;}
+.v-layout.bottom { justify-content: flex-end;}
+.v-layout.spaced { justify-content: space-around;}
+.v-layout.distributed { justify-content: space-between;}
+
+/* Cross axis */
+.v-layout.right { align-items: flex-end;}
+.v-layout.center { align-items: center;}
+.v-layout.left { align-items: flex-start;}
+
+/* Child self align */
+.v-layout > .right { align-self: flex-end;}
+.v-layout > .center { align-self: center;}
+.v-layout > .left { align-self: flex-start;}
+.v-layout > .fill-width { align-self: stretch;}
+.v-layout > .fill-height {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+
+/* Horizontal layout
+----------------------------*/
+.h-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--size-md);
+  width: 100%;
+}
+
+/* Cross axis */
+.h-layout.top  { align-items: flex-start;}
+.h-layout.middle  { align-items: center;}
+.h-layout.bottom  { align-items: flex-end;}
+
+/* Main axis */
+.h-layout.right { justify-content: flex-end;}
+.h-layout.center { justify-content: center;}
+.h-layout.left { justify-content: flex-start;}
+.h-layout.spaced { justify-content: space-around;}
+.h-layout.distributed { justify-content: space-between;}
+
+/* Child self align */
+.h-layout > .fill-width {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.h-layout > .fill-height {
+  height: auto;
+  align-self: stretch;
+}
+
+/* Nested layout child overrides
+----------------------------*/
+.v-layout > .h-layout,
+.h-layout > .v-layout {
+  width: auto;
+}
+
+/* Layout Gap
+----------------------------*/
+.v-layout.gap-0,
+.h-layout.gap-0{
+  gap: 0;
+}
+.v-layout.gap-xs,
+.h-layout.gap-xs{
+  gap: var(--size-xs);
+}
+.v-layout.gap-sm,
+.h-layout.gap-sm{
+  gap: var(--size-sm);
+}
+.v-layout.gap-md,
+.h-layout.gap-md{
+  gap: var(--size-md);
+}
+.v-layout.gap-lg,
+.h-layout.gap-lg{
+  gap: var(--size-lg);
+}
+.v-layout.gap-xl,
+.h-layout.gap-xl{
+  gap: var(--size-xl);
+}
