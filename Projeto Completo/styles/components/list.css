@@ -1,0 +1,18 @@
+ul.general {
+  list-style-type: "➡️";
+}
+ul.positive {
+  list-style-type: "✅";
+}
+ul.negative {
+  list-style-type: "⛔️";
+}
+
+ul.general li,
+ul.positive li,
+ul.negative li{
+  line-height: 1.5;
+  margin-left: var(--size-lg);
+  margin-bottom: var(--size-sm);
+  padding-left: var(--size-sm);
+}

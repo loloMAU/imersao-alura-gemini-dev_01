@@ -55,7 +55,7 @@ function searchCard() {
   // Monta nossa lista HTML de resultados
   for (let entry of filteredData) { // Mudamos apenas aqui de "DATABASE" para "filteredData"
     searchResult += `
-      <a class="card" href="${entry.link}" target="_blank">
+      <a class="card card--xs" href="${entry.link}" target="_blank">
         <div class="h-layout">
           <img style="width: 100px;" src="${entry.img}"/>
           <div class="v-layout middle fill-height fill-width">
