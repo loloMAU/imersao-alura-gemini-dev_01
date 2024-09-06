@@ -54,8 +54,9 @@ function searchCard() {
   let searchResult = "";
   // Monta nossa lista HTML de resultados
   for (let entry of filteredData) { // Mudamos apenas aqui de "DATABASE" para "filteredData"
+    let link = `/pages/tarot-card.html?number=${filteredData.indexOf(entry)}`;
     searchResult += `
-      <a class="card card--xs" href="${entry.link}" target="_blank">
+      <a class="card card--xs" href="${link}">
         <div class="h-layout">
           <img style="width: 100px;" src="${entry.img}"/>
           <div class="v-layout middle fill-height fill-width">
