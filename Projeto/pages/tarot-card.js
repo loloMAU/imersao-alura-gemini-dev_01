@@ -21,4 +21,21 @@ function renderPageInformation(selectedCard) {
   // Preenche o nome da carta
   const cardNameElement = document.getElementById("card-name");
   cardNameElement.innerHTML = selectedCard.name;
+
+  // Preenche a descrição da carta
+  const cardDescriptionElement = document.getElementById("card-description");
+  cardDescriptionElement.innerHTML = renderParagraphs(selectedCard.description);
+}
+
+// Essa função recebe uma lista de textos e retorna cada item da lista em um elemento <p> HTML
+function renderParagraphs(textList){
+  let textResult = "";
+
+  for(item of textList) {
+    textResult+= `
+      <p>${item}</p>
+    `;
+  }
+
+  return textResult;
 }
