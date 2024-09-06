@@ -29,6 +29,10 @@ function renderPageInformation(selectedCard) {
   // Preenche informações de numerologia da carta
   const cardNumerologyElement = document.getElementById("card-numerology");
   cardNumerologyElement.innerHTML = renderParagraphs(selectedCard.numerology);
+
+  // Preenche informações de palavras-chave da carta
+  const cardKeywordsElement = document.getElementById("card-keywords");
+  cardKeywordsElement.innerHTML = `<p><strong>Palavras-chave: </strong>${selectedCard.keywords}</p>`;
 }
 
 // Essa função recebe uma lista de textos e retorna cada item da lista em um elemento <p> HTML
