@@ -35,3 +35,5 @@ const THE_FOOL = {
   },
   keywords: "Novos começos, aventura, espontaneidade, intuição, liberdade, crescimento pessoal, inocência, riscos, oportunidades.",
 }
+
+export default THE_FOOL;

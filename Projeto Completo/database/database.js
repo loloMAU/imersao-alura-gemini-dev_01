@@ -1,3 +1,5 @@
+import THE_FOOL from "./major-arcana/0-the-fool.js";
+
 // Lista com todos os dados das nossas cartas de Arcanos Maiores
 const DATABASE = [
   THE_FOOL,
@@ -23,3 +25,6 @@ const DATABASE = [
   // JUDGEMENT,
   // THE_WORLD,
 ];
+
+// Disponibiliza nosso DATABASE no javascript para ser usado no app.js e outros arquivos
+window.DATABASE = DATABASE;

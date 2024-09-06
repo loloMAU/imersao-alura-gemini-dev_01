@@ -20,7 +20,7 @@ function searchCard() {
   // Quer saber mais? Pergunte ao Gemini!
   // - Como funciona o método .filter() de uma lista no javascript?
   // - O que é uma "arrow function" no javascript?
-  const filteredData = tarotCardsList.filter(
+  const filteredData = DATABASE.filter(
     // O método .filter() executa essa função dentro dele para cada elemento da lista,
     // assim como o "for(let dado of dados)" da aula.
     // Essa função retorna um valor VERDADEIRO ou FALSO para cada item da lista,
@@ -53,7 +53,7 @@ function searchCard() {
   // Variável que guarda nossos resultados de busca
   let searchResult = "";
   // Monta nossa lista HTML de resultados
-  for (let entry of filteredData) { // Mudamos apenas aqui de "tarotCardsList" para "filteredData"
+  for (let entry of filteredData) { // Mudamos apenas aqui de "DATABASE" para "filteredData"
     searchResult += `
       <a class="card" href="${entry.link}" target="_blank">
         <div class="h-layout">
