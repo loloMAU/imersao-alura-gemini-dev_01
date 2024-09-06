@@ -1,4 +1,3 @@
-// Declara as informações da nossa carta em uma constante
 const THE_FOOL = {
   name: "0 - O Louco",
   img: "/assets/images/cards/major-arcana/0-the-fool.jpg",
