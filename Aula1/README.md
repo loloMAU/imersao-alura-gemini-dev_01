@@ -76,6 +76,16 @@ Nessa pasta, temos os arquivos utilitários que nos ajudam a estruturar o layout
 
 # Prompts utilizados
 
+### Para nos auxiliar com a estrutura do projeto
+
+> Você é um desenvolvedor front-end sênior com experiência em diversos padrões de organização de projetos diferentes.
+>
+> Quando se trata de estrutura de projetos, qual é a maneira mais comum de se nomear arquivos e pastas? Usam-se letras minusculas ou maiúsculas, separador usando hífen ou underline?
+
+**Resumo da resposta**
+
+[addimg]
+
 ### Informações sobre as cartas de Tarot
 
 Todo o projeto foi criado com informações geradas pelo Google Gemini sobre as cartas de Tarot e seus significados. Para isso, criamos uma persona no Google Gemini que irá nos auxiliar em todo o projeto
