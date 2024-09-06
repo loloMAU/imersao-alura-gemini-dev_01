@@ -17,4 +17,8 @@ function renderPageInformation(selectedCard) {
   // Preenche a imagem da carta
   const cardImageElement = document.getElementById("card-image");
   cardImageElement.src = selectedCard.img;
+
+  // Preenche o nome da carta
+  const cardNameElement = document.getElementById("card-name");
+  cardNameElement.innerHTML = selectedCard.name;
 }
