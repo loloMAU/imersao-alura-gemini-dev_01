@@ -25,6 +25,10 @@ function renderPageInformation(selectedCard) {
   // Preenche a descrição da carta
   const cardDescriptionElement = document.getElementById("card-description");
   cardDescriptionElement.innerHTML = renderParagraphs(selectedCard.description);
+
+  // Preenche informações de numerologia da carta
+  const cardNumerologyElement = document.getElementById("card-numerology");
+  cardNumerologyElement.innerHTML = renderParagraphs(selectedCard.numerology);
 }
 
 // Essa função recebe uma lista de textos e retorna cada item da lista em um elemento <p> HTML
