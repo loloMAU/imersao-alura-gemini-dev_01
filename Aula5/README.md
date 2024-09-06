@@ -84,8 +84,9 @@ const filteredData = tarotCardsList.filter(
 > - O que é uma "arrow function" no javascript?
 
 # Resultado do projeto na Aula 5
-[add img]
-[add img]
+![Aula5 - Desktop](https://github.com/user-attachments/assets/32874d88-38de-42ee-a3ea-2357ae52b0b0)
+![Aula5 - Mobile](https://github.com/user-attachments/assets/f583d6d5-2f23-478a-a8fe-90bf743c4fcd)
+
 
 
 
