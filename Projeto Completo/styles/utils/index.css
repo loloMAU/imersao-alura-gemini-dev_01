@@ -1,0 +1,7 @@
+/*
+  Usando a técnica de @import do CSS, centralizamos os estilos dos outros arquivos menores dentro de um arquivo CSS principal.
+  Dessa forma podemos importar todos os arquivos de uma determinada pasta de uma vez só para outros arquivos.
+*/
+
+@import url("./container.css");
+@import url("./flex-layout.css");
