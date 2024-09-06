@@ -9,5 +9,12 @@ function onload() {
     return;
   }
 
-  console.log(selectedCard);
+  // Executa a função para preencher as informações da página com a carta selecionada
+  renderPageInformation(selectedCard);
+}
+
+function renderPageInformation(selectedCard) {
+  // Preenche a imagem da carta
+  const cardImageElement = document.getElementById("card-image");
+  cardImageElement.src = selectedCard.img;
 }
