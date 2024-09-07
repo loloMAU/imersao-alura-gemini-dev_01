@@ -29,3 +29,7 @@ function getNumberFromSigil(str) {
   }
   return sum;
 }
+
+function howItWorks() {
+  alert("Escolha um momento tranquilo para o jogo e feche os olhos por alguns instantes.\n\nConcentre-se e peça mentalmente uma orientação para o seu dia.\n\nVocê só pode tirar uma carta, por isso, quando se sentir preparado embaralhe as cartas.");
+}
