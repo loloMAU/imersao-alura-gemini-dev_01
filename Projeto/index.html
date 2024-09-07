@@ -34,11 +34,11 @@
       </div>
       <div class="fill-height v-layout bottom">
         <div class="text-center font-size-lg font-amarante">Sorte do dia</div>
-        <input type="text" placeholder="Seu nome completo"/>
+        <input id="name-input" type="text" placeholder="Seu nome completo" required/>
         <div class="date-input" placeholder="Dada de nascimento">
-          <input type="date" required/>
+          <input id="date-input" type="date" required/>
         </div>
-        <button class="primary" onclick="searchCard()">Tirar a sorte</button>
+        <button class="primary" onclick="luckOfTheDay()">Tirar uma carta</button>
       </div>
       <div class="v-layout fill-height" id="search-results-list"></div>
     </main>
