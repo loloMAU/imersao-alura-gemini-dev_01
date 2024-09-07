@@ -1,4 +1,4 @@
-function searchCard() {
+function filterCards() {
   // Aqui utilizamos uma maneira diferente de declarar variaveis.
   // Usar "const" é uma boa prática quando queremos que nossa variável não seja alterada acidentalmente
   // Quer saber mais? Pergunte ao Gemini!
@@ -7,13 +7,8 @@ function searchCard() {
   // Obtém o elemento em que exibiremos os resultados de busca
   const resultListElement = document.getElementById("search-results-list");
   // Obtém valor digitado pelo usuário no campo de texto
-  const searchInputValue = document.getElementById("search-input").value;
+  const searchInputValue = document.getElementById("filter-input").value.trim();
 
-  // Caso o campo de texto esteja vazio, retornamos uma mensagem ao usuário
-  if (!searchInputValue) {
-    resultListElement.innerHTML = "<p class='text-center'>Digite algum termo para buscar resultados</p>";
-    return;
-  }
 
   // Aqui usamos uma função diferente para nos ajudar a filtrar os dados.
   // As listas no javascript possuem um método chamado .filter() para esses casos!
@@ -31,7 +26,7 @@ function searchCard() {
       let keywords = entry.keywords.toLowerCase();
       let value = searchInputValue.toLowerCase();
       // Retorna se devemos ou nao incluir o resultado na lista
-      return name.includes(value) || keywords.includes(value);
+      return !value || name.includes(value) || keywords.includes(value);
     }
   )
 

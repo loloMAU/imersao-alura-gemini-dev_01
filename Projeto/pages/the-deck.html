@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <title>Tarot de Ana Gemini</title>
   </head>
-  <body class="v-layout">
+  <body class="v-layout" onload="filterCards()">
     <header>
       <div class="container">
         <nav class="nav-menu">
@@ -34,8 +34,7 @@
       </div>
       <div class="fill-height v-layout bottom">
         <div class="text-center font-size-lg font-amarante">Conheça o Tarot</div>
-        <input type="text" placeholder="Procure por uma carta" id="search-input"/>
-        <button class="primary" onclick="searchCard()">Buscar</button>
+        <input type="text" placeholder="Filtrar resultados" id="filter-input" oninput="filterCards()"/>
       </div>
       <div class="v-layout fill-height" id="search-results-list"></div>
     </main>
