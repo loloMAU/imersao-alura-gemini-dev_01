@@ -1,0 +1,83 @@
+/*
+  Esse arquivo define o estilo CSS do nosso componente de <input type="date">
+*/
+
+/* input[type="date"] {
+  display: block;
+  width: 100%;
+  font-size: var(--size-md)!important;
+  border: none!important;
+  padding: var(--size-md)!important;
+  border-radius: calc(var(--size-md) * 2)!important;
+  box-sizing: border-box;
+} */
+
+
+/* HTML <input type="date"> element has different styles on mobile, specilly iOS.
+We need to tweak some things to make it look as expected */
+
+/* We need a container to simulate the actual <input type="date"> element */
+
+.date-input {
+  position: relative;
+  background-color: var(--white);
+  display: block;
+  width: 100%;
+  font-size: var(--size-md);
+  border: none;
+  border-radius: calc(var(--size-md) * 2);
+  color: var(--grey-600);
+}
+
+/* The arrow is draw using :after pseudo-element */
+.date-input[placeholder]::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: var(--size-md);
+  left: 0;
+  pointer-events: none;
+}
+
+.date-input[placeholder]:has(input[required]:not(:focus):invalid)::after {
+  content: attr(placeholder);
+}
+
+.date-input[placeholder] input[required][type="date"]:not(:focus):invalid {
+  color: transparent;
+}
+
+/* We use an actual <input type="date"> inside the container to display the options */
+
+.date-input > input[type="date"] {
+  display:block;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  height: 100%;
+  min-height: 50px;
+  width: 100%;
+  font-size: var(--size-md);
+  padding: var(--size-md);
+  padding-right: var(--size-xxl);
+  color: var(--text-color);
+  box-sizing: border-box;
+
+   /* Disable default styling on ff */
+  -moz-appearance: none;
+  /* Disable default styling on webkit browsers */
+  -webkit-appearance: none;
+}
+
+/* Disable outline on firefox */
+.date-input > input[type="date"]:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+/* Disable default arrow on IE 11+ */
+.date-input > input[type="date"]::-ms-expand {
+  display: none;
+}
