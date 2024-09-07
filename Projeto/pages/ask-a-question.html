@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <title>Tarot de Ana Gemini</title>
   </head>
   <body class="v-layout">
@@ -27,23 +27,25 @@
         </nav>
       </div>
     </header>
-    <main class="v-layout fill-height container gap-xl">
-      <div>
-        <h1 class="text-center"><span class="font-size-xl">Oráculo do</span><br/>Tarot</h1>
-        <p class="font-reenie text-center font-size-xl">Por: Ana Gemini</p>
+    <main class="fill-height">
+      <div class="container fill-height">
+        <div class="v-layout">
+          <div>
+            <h1 class="text-center"><span class="font-size-xl">Oráculo do</span><br/>Tarot</h1>
+            <p class="font-reenie text-center font-size-xl">Por: Ana Gemini</p>
+          </div>
+          <div class="fill-height v-layout middle">
+            <div class="text-center font-size-lg font-amarante">Faça uma pergunta</div>
+            <input type="text" placeholder="O que deseja perguntar ao oráculo?" />
+            <button class="primary">Consultar cartas</button>
+          </div>
+          <div class="fill-height"></div>
+        </div>
       </div>
-      <div class="fill-height v-layout bottom">
-        <div class="text-center font-size-lg font-amarante">Sorte do dia</div>
-        <input type="text" placeholder="Seu nome completo"/>
-        <input type="text" placeholder="Data de nascimento"/>
-        <button class="primary" onclick="searchCard()">Tirar a sorte</button>
-      </div>
-      <div class="v-layout fill-height" id="search-results-list"></div>
     </main>
+
     <footer>
       <p>2024 - Projeto Alura e Google Gemini</p>
     </footer>
-    <script type="module" src="./database/database.js"></script>
-    <script src="app.js"></script>
   </body>
 </html>

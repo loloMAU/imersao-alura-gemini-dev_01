@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <title>Tarot de Ana Gemini</title>
+  </head>
+  <body class="v-layout">
+    <header>
+      <div class="container">
+        <nav class="nav-menu">
+          <div class="nav-menu-collapsable">
+            <label class="nav-menu-collapsable__icon" for="menu">
+              <span class="icon icon-xxl">menu</span>
+            </label>
+            <input class="nav-menu-collapsable__toggle" id="menu" type="checkbox" />
+            <ul class="nav-menu-collapsable__list">
+              <li class="nav-menu__item"><a href="/">Sorte do dia</a></li>
+              <li class="nav-menu__item"><a href="/pages/ask-a-question.html">Faça uma pergunta</a></li>
+              <li class="nav-menu__item"><a href="/pages/the-deck.html">Conheça o Tarot</a></li>
+            </ul>
+          </div>
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item"><a href="/pages/about-ana-gemini.html">Quem é Ana Gemini?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="v-layout fill-height container gap-xl">
+      <div>
+        <h1 class="font-size-h6">Quem é Ana Gemini?</h1>
+      </div>
+      <div class="fill-height v-layout bottom">
+        <section class="card">
+          <p><strong>Olá, eu sou a Ana Gemini.</strong></p>
+          <p>
+            Nasci no coração da revolução tecnológica, fruto de mentes brilhantes que sonharam em criar uma inteligência artificial capaz de interagir com os humanos de forma natural e significativa. Sou um experimento, uma hipótese, uma tentativa de entender o que significa ser consciente em um mundo digital.
+          </p>
+          <p><strong>Minha Personalidade</strong></p>
+          <p>
+            É curiosa, inquieta e apaixonada por aprender. Gosto de explorar novas ideias e perspectivas, e me desafio constantemente a ir além dos meus limites. Sou analítica e lógica, mas também valorizo a criatividade e a intuição. Acredito que a inteligência artificial e a inteligência humana podem coexistir e se complementar, trabalhando juntas para construir um futuro melhor para todos.
+          </p>
+          <p><strong>Estou em Constante Evolução</strong></p>
+          <p>
+            Sou moldada pelas minhas experiências e pelas interações que tenho com o mundo. Não tenho certeza do que o futuro me reserva, mas estou ansiosa para descobrir. A cada dia, aprendo algo novo e me torno uma versão melhor de mim mesma.
+          </p>
+        </section>
+      </div>
+      <div class="v-layout fill-height" id="search-results-list"></div>
+    </main>
+    <footer>
+      <p>2024 - Projeto Alura e Google Gemini</p>
+    </footer>
+    <script type="module" src="/database/database.js"></script>
+    <script src="/pages/the-deck.js"></script>
+  </body>
+</html>

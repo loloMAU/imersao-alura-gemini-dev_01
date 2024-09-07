@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <title>Tarot de Ana Gemini</title>
   </head>
   <body class="v-layout">
@@ -33,17 +33,16 @@
         <p class="font-reenie text-center font-size-xl">Por: Ana Gemini</p>
       </div>
       <div class="fill-height v-layout bottom">
-        <div class="text-center font-size-lg font-amarante">Sorte do dia</div>
-        <input type="text" placeholder="Seu nome completo"/>
-        <input type="text" placeholder="Data de nascimento"/>
-        <button class="primary" onclick="searchCard()">Tirar a sorte</button>
+        <div class="text-center font-size-lg font-amarante">Conheça o Tarot</div>
+        <input type="text" placeholder="Procure por uma carta" id="search-input"/>
+        <button class="primary" onclick="searchCard()">Buscar</button>
       </div>
       <div class="v-layout fill-height" id="search-results-list"></div>
     </main>
     <footer>
       <p>2024 - Projeto Alura e Google Gemini</p>
     </footer>
-    <script type="module" src="./database/database.js"></script>
-    <script src="app.js"></script>
+    <script type="module" src="/database/database.js"></script>
+    <script src="/pages/the-deck.js"></script>
   </body>
 </html>

@@ -7,6 +7,26 @@
     <title>Tarot de Ana Gemini</title>
   </head>
   <body class="v-layout" onload="onload()">
+    <header>
+      <div class="container">
+        <nav class="nav-menu">
+          <div class="nav-menu-collapsable">
+            <label class="nav-menu-collapsable__icon" for="menu">
+              <span class="icon icon-xxl">menu</span>
+            </label>
+            <input class="nav-menu-collapsable__toggle" id="menu" type="checkbox" />
+            <ul class="nav-menu-collapsable__list">
+              <li class="nav-menu__item"><a href="/">Sorte do dia</a></li>
+              <li class="nav-menu__item"><a href="/pages/ask-a-question.html">Faça uma pergunta</a></li>
+              <li class="nav-menu__item"><a href="/pages/the-deck.html">Conheça o Tarot</a></li>
+            </ul>
+          </div>
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item"><a href="/pages/about-ana-gemini.html">Quem é Ana Gemini?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="v-layout container gap-xl">
       <div class="v-layout center">
         <img id="card-image" class="card card--xs" style="height: 50%; max-height: 400px; width: auto;">
