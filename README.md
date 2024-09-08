@@ -3,6 +3,7 @@
 # Um projeto Alura + Google Gemini
 
 ### [Acesse o Tarot online](https://oraculo-tarot.vercel.app/)
+### [Vote no projeto](https://discord.com/channels/1277631721822748742/1277631722716008535/1282132163126493235)
 
 ### Sobre o projeto
 Projeto criado na semana da `imersão dev_` da Alura com Google Gemini.
