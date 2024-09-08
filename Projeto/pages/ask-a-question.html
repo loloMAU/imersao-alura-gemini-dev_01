@@ -36,16 +36,20 @@
           </div>
           <div class="fill-height v-layout middle">
             <div class="text-center font-size-lg font-amarante">Faça uma pergunta</div>
-            <input type="text" placeholder="O que deseja perguntar ao oráculo?" />
-            <button class="primary">Consultar cartas</button>
+            <input id="question-input" type="text" placeholder="O que deseja perguntar ao oráculo?" />
+            </textarea>
+            <div class="v-layout gap-xs">
+              <button class="primary" onclick="askAQuestion()">Consultar cartas</button>
+              <button class="link" onclick="howItWorks()">Como funciona?</button>
+            </div>
           </div>
-          <div class="fill-height"></div>
         </div>
       </div>
     </main>
-
     <footer>
       <p>2024 - Projeto Alura e Google Gemini</p>
     </footer>
+    <script type="module" src="/database/database.js"></script>
+    <script src="/pages/ask-a-question.js"></script>
   </body>
 </html>

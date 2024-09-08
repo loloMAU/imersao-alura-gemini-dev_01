@@ -1,6 +1,6 @@
 function luckOfTheDay() {
-  const nameInputValue = document.getElementById("name-input").value;
-  const dateInputValue = document.getElementById("date-input").value;
+  const nameInputValue = document.getElementById("name-input").value.trim();
+  const dateInputValue = document.getElementById("date-input").value.trim();
   const today = new Date().toDateString();
 
   if(!nameInputValue || !dateInputValue) {
@@ -31,5 +31,9 @@ function getNumberFromSigil(str) {
 }
 
 function howItWorks() {
-  alert("Escolha um momento tranquilo para o jogo e feche os olhos por alguns instantes.\n\nConcentre-se e peça mentalmente uma orientação para o seu dia.\n\nVocê só pode tirar uma carta, por isso, quando se sentir preparado embaralhe as cartas.");
+  alert(
+    "Escolha um momento tranquilo para o jogo e feche os olhos por alguns instantes.\n\n"+
+    "Concentre-se e peça mentalmente uma orientação para o seu dia.\n\n"+
+    "Você só pode tirar uma carta, por isso, quando se sentir preparado embaralhe as cartas."
+  );
 }
